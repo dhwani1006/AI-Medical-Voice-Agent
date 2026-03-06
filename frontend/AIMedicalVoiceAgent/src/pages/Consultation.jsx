@@ -98,7 +98,7 @@ export default function Consultation() {
     try {
       if (!callActiveRef.current) return;
 
-      const res = await fetch("http://localhost:5000/api/chat", {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: updatedMessages })
@@ -133,7 +133,7 @@ export default function Consultation() {
         audioRef.current.currentTime = 0;
       }
 
-      const res = await fetch("http://localhost:5000/api/tts", {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/tts`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
