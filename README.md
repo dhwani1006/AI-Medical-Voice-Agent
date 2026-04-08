@@ -28,11 +28,11 @@ It converts speech into text, processes it using an AI model, and responds with 
 
 ##  Screenshots
 
-![Home](./Home.png)
+# ![Home](./Home.png)
 
-![Voice](./Voice.png)
+# ![Voice](./Voice.png)
 
-![Report](./Report.png)
+# ![Report](./Report.png)
 
 ---
 
