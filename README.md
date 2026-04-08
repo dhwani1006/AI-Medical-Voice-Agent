@@ -45,10 +45,14 @@ It converts speech into text, processes it using an AI model, and responds with 
 
 ---
 
-##  Installation & Setup
+## Run Locally (Optional)
 
+```bash
 # Clone the repository
 git clone https://github.com/dhwani1006/AI-Medical-Voice-Agent.git
+
+# Navigate to project
+cd AI-Medical-Voice-Agent
 
 # Install dependencies
 npm install
@@ -57,9 +61,10 @@ npm install
 cd backend
 npm start
 
-# Run frontend
+# Run frontend (open new terminal)
 cd frontend
 npm start
+```
 
 ---
 
