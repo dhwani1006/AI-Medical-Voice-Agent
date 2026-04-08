@@ -29,7 +29,9 @@ It converts speech into text, processes it using an AI model, and responds with 
 ##  Screenshots
 
 ![Home](./Home.png)
+
 ![Voice](./Voice.png)
+
 ![Report](./Report.png)
 
 ---
