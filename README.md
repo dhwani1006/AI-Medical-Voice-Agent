@@ -25,6 +25,10 @@ It converts speech into text, processes it using an AI model, and responds with 
 
 ##  Screenshots
 
+![Home](./Home.png)
+![Voice](./Voice.png)
+![Report](./Report.png)
+
 ---
 
 ## Live Demo
@@ -61,5 +65,3 @@ npm start
 7. Structured medical report is generated
 ---
 
-## Contact
-Feel free to connect for feedback or collaboration!
