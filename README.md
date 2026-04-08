@@ -3,6 +3,7 @@
 ## Overview
 AI Medical Voice Agent is a voice-enabled web application that allows users to interact with an AI system for basic medical guidance. 
 It converts speech into text, processes it using an AI model, and responds with voice output in real time.
+
 ---
 
 ## Features
@@ -11,6 +12,7 @@ It converts speech into text, processes it using an AI model, and responds with 
 * AI-powered responses using **Hugging Face (LLaMA 3 model)**
 * Real-time voice interaction
 * Automatic medical report generation
+
 ---
 
 ## Tech Stack
@@ -21,6 +23,7 @@ It converts speech into text, processes it using an AI model, and responds with 
   * Hugging Face Router (LLaMA 3 - chat & report generation)
   * Deepgram API (Text-to-Speech)
 * **Browser API:** Web Speech API (Speech Recognition)
+
 ---
 
 ##  Screenshots
@@ -34,6 +37,7 @@ It converts speech into text, processes it using an AI model, and responds with 
 ## Live Demo
 
 * https://amvaf.onrender.com/
+
 ---
 
 ##  Installation & Setup
@@ -63,5 +67,6 @@ npm start
 5. Response is converted to speech using Deepgram
 6. Audio is played back to the user
 7. Structured medical report is generated
+
 ---
 
